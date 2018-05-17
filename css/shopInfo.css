@@ -1,0 +1,288 @@
+header{
+    width: 100%;
+    height: 2.4rem;
+    background: url("../img/shopInfo/pg.png");
+    background-size: 100% 100%;
+    padding: 0.4rem 0.24rem 0;
+    box-sizing: border-box;
+}
+header > .top{
+    width: 100%;
+    height: 0.88rem;
+    /*background: yellow;*/
+    display: flex;
+    justify-content: space-between;
+    /*align-items: center;*/
+}
+.top > .left{
+    width: 0.4rem;
+    height: 100%;
+    /*background: #00a0c1;*/
+    display: flex;
+    align-items: center;
+
+}
+.top  .left a i{
+    font-size: 0.4rem;
+    color: #ffffff;
+    display: flex;
+}
+
+.top > .right{
+    width: 1.8rem;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    align-items: center;
+}
+.top .right a i{
+    color: #ffffff;
+    font-size: 0.4rem;
+    display: flex;
+    margin-left: 0.24rem;
+}
+.shopInfo{
+    width: 100%;
+    height: 2.23rem;
+    padding: 0.36rem 0.24rem;
+    box-sizing: border-box;
+    /*background: gold;*/
+    display: flex;
+    flex-direction: column;
+}
+.shopInfo > li{
+    flex-grow: 1;
+}
+.shopInfo .name{
+    font-size: 0.3rem;
+}
+.shopInfo .price{
+    color: red;
+    font-size: 0.3rem;
+}
+.shopInfo .quality{
+    font-size: 0.18rem;
+    color: #7F7A7A;
+}
+.shopInfo .dec{
+    width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-size: 0.18rem;
+}
+ a .butt{
+    width: 2.46rem;
+    height: 0.6rem;
+    background: #f39800;
+    border-radius: 1rem;
+    color: #ffffff;
+    font-size: 0.2rem;
+    text-align: center;
+    line-height: 0.6rem;
+     position: absolute;
+     top:2.75rem ;
+     right: 0.24rem;
+}
+a .butt .squa1{
+    width: 0.64rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #ffffff;
+    position:absolute;
+    left: 0.27rem;
+    bottom: 0.07rem;
+}
+a .butt .squa2{
+    width: 0.64rem;
+    height: 0.05rem;
+    border-radius: 0.03rem;
+    background: #ffffff;
+    position: absolute;
+    top:0.06rem ;
+    right: 0.22rem;
+}
+.pingjia{
+    width: 100%;
+    height: 0.74rem;
+    padding: 0 0.24rem;
+    border-bottom: 0.01rem solid #f2f2f2;
+    color: #000000;
+    font-size: 0.2rem;
+    line-height: 0.74rem;
+    box-sizing: border-box;
+}
+/*userInfo*/
+.userInfo{
+    width: 100%;
+    height: auto;
+}
+.userInfo .list{
+    width: 100%;
+    height: 1.98rem;
+    /*background: rebeccapurple;*/
+    padding: 0.23rem 0.24rem 0;
+    box-sizing: border-box;
+    display: flex;
+}
+.userInfo .list .left{
+    /*width: 1.35rem;*/
+    /*right: 1.35rem;*/
+    /*background: #00a0c1;*/
+    border-radius: 50%;
+    display: flex;
+    margin-bottom: 0.23rem;
+}
+.userInfo .list  .left img{
+    width: 1.4rem;
+    height: 1.4rem;
+    border-radius: 50%;
+}
+
+.userInfo .list .right{
+  flex-grow: 1;
+    margin-left: 0.24rem;
+    display: flex;
+    flex-direction: column;
+}
+.userInfo .list .right > div{
+    flex-grow: 1;
+}
+.userInfo .list .right .user {
+    display: flex;
+    justify-content: space-between;
+}
+
+.userInfo .list .right .user .zuo{
+    width: 1.74rem;
+    /*background: #5f5750;*/
+    font-size: 0.18rem;
+    display: flex;
+}
+.userInfo .list .right .user .zuo img{
+    flex-grow: 1;
+    height: 0.25rem;
+}
+.userInfo .list .right .user .you{
+    font-size: 0.18rem;
+}
+.userInfo .list .right .add{
+     display: flex;
+    font-size: 0.18rem;
+
+}
+.userInfo .list .right .add i{
+    font-size: 0.3rem;
+    /*display: flex;*/
+}
+.userInfo .list .right .word{
+    font-size: 0.18rem;
+}
+.userInfo .list .right .text{
+    width: 2.3rem;
+    display: flex;
+    justify-content: flex-end;
+    padding-left:3rem;
+
+}
+.userInfo .list .right .text .zan{
+    width: 1.15rem;
+    display: flex;
+    font-size: 0.18rem;
+    color: #b2afaf;
+}
+.userInfo .list .right .text .zan i{
+    color: red;
+    font-size: 0.18rem;
+}
+
+.userInfo .list .right .text .xiaoxi{
+    width:1.17rem ;
+    display: flex;
+    font-size: 0.18rem;
+    color: #b2afaf;
+}
+.userInfo .list .right .text .xiaoxi i{
+    color: red;
+    font-size: 0.18rem;
+}
+.white{
+    width: 100%;
+    height: 1rem;
+}
+footer{
+    width: 100%;
+    height: 1rem;
+    background: #5f5750;
+    padding: 0 0 0 0.24rem;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+    bottom: 0;
+    left:0;
+}
+footer .yuan1{
+    width: 1.1rem;
+    height: 1.1rem;
+    border-radius: 50%;
+    background:#484343;
+    position: absolute;
+    bottom: 0.24rem;
+    left: 0.24rem;
+    margin-right: 0.3rem;
+}
+footer .yuan1 i{
+    color: #ffffff;
+    font-size: 0.7rem;
+    position: absolute;
+    bottom: 0.15rem;
+    left: 0.15rem;
+}
+footer .yuan2{
+    z-index: 999;
+    width: 0.4rem;
+    height: 0.4rem;
+    padding: 0.01rem  0.13rem;
+    box-sizing: border-box;
+    background: yellow;
+    color: #ffffff;
+    font-size: 0.26rem;
+    border-radius: 50%;
+    position: absolute;
+    top: -0.3rem;
+    left: 1.1rem;
+}
+footer .yuan2 i{
+    color: #ffffff;
+    font-size: 0.24rem;
+}
+footer .text{
+    width: 5.8rem;
+    height: 100%;
+    /*background: #00a0c1;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer .text .text1{
+    width: 1.5rem;
+    height: 1rem;
+    /*background:orangered;*/
+    color: #ffffff;
+    font-size: 0.3rem;
+    line-height: 1rem;
+}
+footer .text a{
+    display: block;
+    width: 1.9rem;
+    height: 100%;
+    background: #484343;
+    color: #ffffff;
+    font-size: 0.3rem;
+    text-align: center;
+    line-height: 1rem;
+}
+
+

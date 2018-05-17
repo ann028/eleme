@@ -1,0 +1,268 @@
+header{
+    width: 100%;
+    height: 2.56rem;
+    background: url("../img/personcenter/bg.png");
+    background-size: 100% 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+header .top{
+    width: 100%;
+    height: 0.9rem;
+    /*background: deeppink;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .top .left{
+    width: 0.4rem;
+    height: 0.4rem;
+    /*background: blue;*/
+    display: flex;
+    color: #ffffff;
+}
+header .top .center{
+    width:3rem;
+    height: 100%;
+    /*background: black;*/
+    color: #ffffff;
+    font-size: 0.2rem;
+    text-align: center;
+    padding-top: 0.09rem;
+}
+header .top .center .center1{
+    color: #ffffff;
+    font-size: 0.18rem;
+}
+
+
+header .top .right a{
+    width: 0.3rem;
+    height: 0.4rem;
+    /*background: red;*/
+    font-size: 0.4rem;
+    color: #ffffff;
+    display: flex;
+}
+header .bottom{
+    width: 100%;
+    height:1.66rem ;
+    /*background: green;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .bottom .left{
+    width: 3.3rem;
+    height:100% ;
+    /*background:#ffffff;*/
+    display: flex;
+    align-items: center;
+}
+
+header .bottom  .left .pic{
+    width: 1.34rem;
+    height: 1.34rem;
+    border-radius: 50%;
+    background: #ffffff;
+    background: url("../img/personcenter/tu.png");
+    background-size: 100% 100%;
+}
+header .bottom  .left .phone{
+    width: 1.96rem;
+    height: 100%;
+}
+header .bottom  .left .phone .name,.number{
+    width: 100%;
+    height: 50%;
+    color: #ffffff;
+    font-size: 0.18rem;
+    text-align: center;
+    line-height: 0.88rem;
+}
+header .bottom  .right{
+    width: 0.3rem;
+    height: 0.4rem;
+    /*background: deeppink;*/
+    display: flex;
+    color: #ffffff;
+    font-size: 0.3rem;
+}
+header .bottom  .right a i{
+    color: #ffffff;
+}
+.title{
+    width: 7.5rem;
+    height: 1.03rem;
+    /*background:red;*/
+    padding:0.25rem 0.24rem;
+    box-sizing: border-box;
+    border-bottom: 0.01rem solid #eeeeee;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.title .left{
+    flex-grow: 1;
+    display: flex;
+    color: #000000;
+    font-size: 0.18rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:0.2rem 0;
+    box-sizing: border-box;
+    /*line-height: 1.03rem;*/
+}
+.title .left1{
+    color: red;
+}
+.title .zhong{
+    flex-grow: 1;
+    display: flex;
+    color: #000000;
+    font-size: 0.18rem;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    border-left: 0.01rem solid #eeeeee;
+    border-right:0.01rem solid #eeeeee ;
+}
+.title .zhong1{
+    color: orangered;
+}
+
+.title .right{
+    flex-grow: 1;
+    display: flex;
+    color: #000000;
+    text-align: center;
+    flex-direction: column;
+    font-size: 0.18rem;
+    justify-content: center;
+}
+.title .right1{
+    color: blue;
+}
+.content{
+    width: 100%;
+    height: auto;
+}
+.content .list{
+    width: 100%;
+    height: 1.3rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.01rem solid #eeeeee;
+    padding:0.25rem 0.24rem;
+    box-sizing: border-box;
+}
+.content .list .left{
+    width: 3.2rem;
+    height: 100%;
+    /*background: red;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content .list .left .pic{
+    width: 0.45rem;
+    height: 0.45rem;
+    /*background: yellowgreen;*/
+    display: flex;
+}
+.content .list .left .pic .icon-dingwei1{
+    font-size: 0.4rem;
+    color:blue ;
+}
+.content .list .left .add{
+    width:2.55rem ;
+    height: 100%;
+    margin-left: 0.3rem;
+    /*background: #4bae50;*/
+}
+.content .list .left .add .shang{
+    width: 100%;
+    height: 50%;
+    font-size: 0.18rem;
+}
+.content .list .left .add .xia{
+    width: 100%;
+    height: 50%;
+    font-size: 0.18rem;
+    color: #a3a3a3;
+}
+
+.content .list .right a i{
+    width:0.3rem ;
+    height: 0.4rem;
+    /*background: blue;*/
+    display: flex;
+}
+.content .list .left .pic .icon-taoxin{
+    color: red;
+    font-size: 0.4rem;
+}
+.content .list .left .pic .icon-liwu{
+    color: #fe0692;
+    font-size: 0.4rem;
+}
+.content .list .left .pic .icon-qiandai{
+    color: #fed206;
+    font-size: 0.4rem;
+}
+.content .list .left .pic .icon-liebiaodaohang_gongyi{
+    color: #371fec;
+    font-size: 0.4rem;
+}
+.content .list .left .pic .icon-service{
+    color: #f284ec;
+    font-size: 0.4rem;
+}
+.content .list .left .pic .icon-zan1{
+    color: red;
+    font-size: 0.4rem;
+}
+.content .list .left .pic .icon-shangpu{
+    color: #1e986c;
+    font-size: 0.4rem;
+}
+
+/**/
+.footer{
+    width: 100%;
+    height: 1rem;
+    background:#f12f2f;
+    padding: 0 0.24rem;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0rem;
+    left: 0rem;
+    z-index: 999;
+}
+.footer li a{
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+
+}
+.footer li a i{
+    font-size: 0.4rem;
+    color: #ffffff;
+}
+.footer  li  .active i{
+    color: yellow;
+}
+.footer  li  .active span{
+    color: yellow;
+}
+.footer li a span{
+    color: #ffffff;
+    font-size: 0.18rem;
+}

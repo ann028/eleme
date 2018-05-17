@@ -1,0 +1,213 @@
+header{
+    width: 100%;
+    height: 4.07rem;
+    background: url("../img/payment/header.png");
+    background-size: 100% 100%;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+header a  .top{
+    width: 100%;
+    height: 0.88rem;
+    /*background: #00a0c1;*/
+    display: flex;
+    line-height: 0.88rem;
+    color: #ffffff;
+    font-size: 0.4rem;
+}
+.bottom{
+    width: 100%;
+    height: 2.19rem;
+    /*background: yellow;*/
+    display: flex;
+    flex-direction: column;
+}
+.bottom > .title{
+    flex-grow: 1;
+    color: #ffffff;
+    font-size: 0.18rem;
+    display: flex;
+}
+.bottom > .title > .com{
+    height: 0.25rem;
+    border: 0.01rem solid #ffffff;
+    color: #ffffff;
+    font-size: 0.18rem;
+    line-height: 0.25rem;
+}
+.bottom > .add{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.bottom > .add > .zuo{
+    width: 6rem;
+    height: 0.32rem;
+    /*background: red;*/
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 0.3rem;
+}
+.bottom > .add >a > .you{
+    display: flex;
+    color: #ffffff;
+}
+.bottom > .name{
+    flex-grow: 1;
+    display: flex;
+
+}
+.bottom > .name > .left{
+    color: #ffffff;
+    font-size: 0.18rem;
+    padding-right: 0.4rem;
+}
+.bottom > .name > .right{
+    color: #ffffff;
+    font-size: 0.18rem;
+}
+/**/
+.payInfo{
+    z-index: 999;
+    width: 7.02rem;
+    height: 1.72rem;
+    background: #ffffff;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 0.3rem;
+    position: absolute;
+    top: 2.8rem;
+    left: 0.24rem;
+    border: 1px solid #c5141c;
+    box-shadow: 0 0.04rem 0.15rem 0.02rem rgba(0,0,0,0.2);
+    padding: 0 0.1rem;
+    box-sizing: border-box;
+}
+.payInfo > .shang{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #bfbfbf;
+
+}
+.payInfo .shang  .left{
+    width: 1rem;
+    font-size: 0.18rem;
+    line-height: 0.86rem;
+}
+.payInfo > .shang >.right{
+    width: 1rem;
+    font-size: 0.18rem;
+    line-height: 0.86rem;
+}
+.payInfo > .xia >.right i{
+    font-size: 0.2rem;
+}
+.payInfo > .xia{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.payInfo .xia .left{
+    width: 1rem;
+    font-size: 0.18rem;
+    line-height: 0.86rem;
+
+}
+.payInfo .xia  a .right {
+    width: 1.36rem;
+    color: #000000;
+    font-size: 0.18rem;
+    line-height: 0.86rem;
+}
+.line{
+    width: 100%;
+    height: 0.08rem;
+    background: #c5141c;
+    margin-top: 1.5rem;
+}
+.payWays{
+    width: 100%;
+    height: auto;
+    padding: 0 0.24rem;
+    box-sizing: border-box;
+}
+.payWays .top{
+    width: 100%;
+    height: 0.8rem;
+    /*background: red;*/
+    border-bottom: 0.01rem solid #d2d2d2;
+    font-size: 0.28rem;
+    text-align: center;
+    line-height: 0.8rem;
+}
+.payWays .top  a i{
+    float: right;
+}
+
+.payWays  .list{
+    width: 100%;
+    height: 1.16rem;
+    /*background: green;*/
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+    border-bottom: 0.01rem solid #d2d2d2;
+}
+.payWays  .list .left{
+    width: 2.5rem;
+    height: 100%;
+    /*background: rebeccapurple;*/
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payWays  .list .left .zuo{
+    width: 0.48rem;
+    height: 0.48rem;
+    /*background: pink;*/
+    display: flex;
+    font-size: 0.9rem;
+}
+.payWays  .list .left .zuo i{
+    font-size: 0.4rem;
+    color: #d4237a;
+}
+
+.payWays  .list .left .you{
+    width: 2rem;
+    height: 100%;
+    /*background: palegoldenrod;*/
+    padding-left: 0.2rem;
+    box-sizing: border-box;
+    font-size: 0.18rem;
+    line-height: 1.16rem;
+}
+
+.payWays  .list .right{
+    width: 0.36rem;
+    height: 0.36rem;
+    /*background: #bfbfbf;*/
+    display: flex;
+    color: #e3e0e0;
+}
+.payWays  .list .right .hot{
+    color: #1afa29;
+}
+.payWays  .list .left .zuo .icon-zhifubao{
+    color: #1296db;
+    margin-left: -0.1rem;
+}
+.payWays  .list .left .zuo .icon-mayihuabei {
+    color: #13227a;
+}
+.payWays  .list .left .zuo .icon-bangdingyinhangqia {
+    color: #d81e06;
+}
+.payWays  .list .left .zuo .icon-weixin {
+    color: #1afa29;
+}
